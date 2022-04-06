@@ -17,7 +17,8 @@ const Signup = () => {
     const postDetails = (pics) => { };
     const submitHandler = () => { };
 
-    return <VStack spacing='5px' color = "black">
+    return (
+      <VStack spacing='5px' color="black">
         <FormControl id = 'first-name' isRequired>
             <FormLabel>Name</FormLabel>
             <Input
@@ -84,7 +85,8 @@ const Signup = () => {
         >
             Sign Up
         </Button>
-    </VStack>;
+    </VStack>
+    );
 };
 
 export default Signup;
